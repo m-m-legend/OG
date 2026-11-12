@@ -124,9 +124,10 @@ def Dijkstra(G, w, s):  # Pesos não negativos, O(E log V)
 
     
 
-print(Bellman_Ford(K,K.w,"u"))
-print(Dag_Caminhos_Minimos(A,A.w,"u"))
-print(Dijkstra(P,P.w,"u"))
+if __name__ == "__main__":
+    print(Bellman_Ford(K,K.w,"u"))
+    print(Dag_Caminhos_Minimos(A,A.w,"u"))
+    print(Dijkstra(P,P.w,"u"))
 
 
 
